@@ -6,6 +6,10 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>MyGreatApp.help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>com.mycompany.mygreatapp.help</string>
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
@@ -26,9 +30,5 @@
 	<string>Main</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
-	<key>CFBundleHelpBookFolder</key>
-	<string>MyGreatApp.help</string>
-	<key>CFBundleHelpBookName</key>
-	<string>com.mycompany.mygreatapp.help</string>
 </dict>
 </plist>
