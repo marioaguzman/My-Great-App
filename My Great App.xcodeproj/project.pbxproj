@@ -73,6 +73,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC8426F125056AB200D4183C /* Build configuration list for PBXNativeTarget "My Great App" */;
 			buildPhases = (
+				AC5FDFA427C57AFF00E8E15F /* ShellScript */,
 				AC8426DD25056AB100D4183C /* Sources */,
 				AC8426DE25056AB100D4183C /* Frameworks */,
 				AC8426DF25056AB100D4183C /* Resources */,
@@ -130,6 +131,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC5FDFA427C57AFF00E8E15F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd 'My Great App/MyGreatApp.help/Contents/Resources/en.lproj'\n\nhiutil -I corespotlight -Caf MyGreatApp.cshelpindex -vv .\nhiutil -I lsm  -Caf MyGreatApp.helpindex -vv .\n\nhiutil -I corespotlight -Tvf MyGreatApp.cshelpindex\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC8426DD25056AB100D4183C /* Sources */ = {

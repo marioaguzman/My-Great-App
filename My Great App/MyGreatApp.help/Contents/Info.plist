@@ -23,7 +23,9 @@
 	<key>HPDBookIconPath</key>
 	<string>shrd/icon-16.png</string>
 	<key>HPDBookIndexPath</key>
-	<string>English.lproj.helpindex</string>
+	<string>MyGreatApp.helpindex</string>
+	<key>HPDBookCSIndexPath</key>
+	<string>MyGreatApp.cshelpindex</string>
 	<key>HPDBookKBProduct</key>
 	<string>mygreatapp1</string>
 	<key>HPDBookTitle</key>
